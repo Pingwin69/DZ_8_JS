@@ -1,0 +1,90 @@
+form{
+    margin-bottom: 20%;
+}
+.stats{
+    display: none;
+    justify-content: center;
+    width: 95%;
+    margin: 70px auto;
+}
+.stat{
+    color: white;
+    margin: 0 20px;
+    display: flex;
+    border: solid 2px black;
+    width: 4%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #d6dde4;
+}
+.qsts{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
+.begin{
+    display: flex;
+    justify-content: center;
+}
+.beginBtn{
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+}
+.btns{
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.ans, .back, .next{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    
+}
+.green{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.grey{
+    width: 30px;
+    height: 30px;
+    background-color:#d6dde4;
+    
+    margin-right: 10px;
+
+}
+.red{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.reds, .greens, .greys{
+    display: flex;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.colors{
+    display: none;
+}
+.again{
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+.againBtn{
+    width: 130px;
+    height: 90px;
+    font-size: 22px;
+}
