@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="header">
+    <div class="trans">
+        <div class="transBtns">
+            Сменить язык
+        </div>
+       
+    </div>
+    <div class="transShadow">
+        <div class="eng">Английский язык </div>
+        <div class="ru">Русский язык</div>
+    </div>
+    <div class="data"></div>
+    </div>
         <div class="wrapper">
             <div class="begin">
                 <button class="beginBtn">
@@ -16,7 +29,7 @@
             </div>
             <div class="qst">
                 <div class="qst1 qsts">
-                    <div><p>Вопрос 1</p>Вы любите животных?</div>
+                    <div><p>Вопрос 1</p><span class="qs1">Вы любите животных?</span></div>
                     <div class="btns"><button class="ans">
                         Ответить
                     </button>
@@ -24,7 +37,7 @@
                 </div>
                 </div>
                 <div class="qst2 qsts">
-                    <div><p>Вопрос 2</p>Считаете ли Вы себя беспечным человеком?</div>                   
+                    <div><p>Вопрос 2</p><span class="qs2">Считаете ли Вы себя беспечным человеком?</span></div>                   
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -34,7 +47,7 @@
                 </div>
                 </div>
                 <div class="qst3 qsts">
-                    <div><p>Вопрос 3</p>Вас легко обидеть?</div>
+                    <div><p>Вопрос 3</p><span class="qs3">Вас легко обидеть?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -44,7 +57,7 @@
                 </div>
                 </div>
                 <div class="qst4 qsts">
-                    <div><p>Вопрос 4</p>Часто ли Вы мечтаете?</div>
+                    <div><p>Вопрос 4</p><span class="qs4">Часто ли Вы мечтаете?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -54,7 +67,7 @@
                 </div>
                 </div>
                 <div class="qst5 qsts">
-                    <div><p>Вопрос 5</p>Часто ли Вам снятся кошмары?</div>
+                    <div><p>Вопрос 5</p><span class="qs5">Часто ли Вам снятся кошмары?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -64,7 +77,7 @@
                 </div>
                 </div>
                 <div class="qst6 qsts">
-                    <div><p>Вопрос 6</p>Предпочитаете ли Вы чтение книг встречам с людьми?</div>
+                    <div><p>Вопрос 6</p><span class="qs6">Предпочитаете ли Вы чтение книг встречам с людьми?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -74,7 +87,7 @@
                 </div>
                 </div>
                 <div class="qst7 qsts">
-                    <div><p>Вопрос 7</p>Когда на Вас кричат, Вы отвечаете тем же?</div>
+                    <div><p>Вопрос 7</p><span class="qs7">Когда на Вас кричат, Вы отвечаете тем же?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -84,7 +97,7 @@
                 </div>
                 </div>
                 <div class="qst8 qsts">
-                    <div><p>Вопрос 8</p>Вы иногда сплетничаете?</div>
+                    <div><p>Вопрос 8</p><span class="qs8">Вы иногда сплетничаете?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -94,7 +107,7 @@
                 </div>
                 </div>
                 <div class="qst9 qsts">
-                    <div><p>Вопрос 9</p>Бывает ли, что Вас "бросает в дрожь"?</div>
+                    <div><p>Вопрос 9</p><span class="qs9">Бывает ли, что Вас "бросает в дрожь"?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -104,7 +117,7 @@
                 </div>
                 </div>
                 <div class="qst10 qsts">
-                    <div><p>Вопрос 10</p>Странные ли тут вопросы?</div>
+                    <div><p>Вопрос 10</p><span class="qs10">Странные ли тут вопросы?</span></div>
                     <div class="btns">
                         <button class="back">Предыдущий вопрос</button>
                         <button class="ans">
@@ -128,15 +141,15 @@
             <div class="colors">
                 <div class="greens">
                     <div class="green"></div>
-                    <div> - Да</div>
+                    <div class="greens1"> - Да</div>
                 </div>
                 <div class="reds">
                     <div class="red"></div>
-                    <div> - Нет</div>
+                    <div class="reds1"> - Нет</div>
                 </div>
                 <div class="greys">
                     <div class="grey"></div>
-                    <div> - Вы еще не ответили на этот вопрос</div>
+                    <div class="greys1"> - Вы еще не ответили на этот вопрос</div>
                 </div>
             </div>
             <div class="again">
